@@ -10,6 +10,10 @@ jobs:
     steps:
     - name: Check out tomcat-users.xml
       uses: actions/checkout@v2
+      with:
+        repository: apache/tomcat
+        ref: master
+        path: tomcat
 
     - name: List project files and java version
       run: |
