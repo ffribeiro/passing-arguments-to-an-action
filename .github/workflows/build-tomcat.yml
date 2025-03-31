@@ -21,7 +21,7 @@ jobs:
         repository: apache/tomcat  # Repository name with owner
         ref: master                # The branch, tag, or SHA to checkout
         path: tomcat               # Checkout to ./tomcat
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ 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 }}
 
     - name: Setup Java 9
       uses: actions/setup-java@v3
